@@ -7,6 +7,6 @@ cross apply sys.dm_exec_sql_text(s.sql_handle) t
 where t.text like '%Employee%'
 
 dbcc FREEPROCCACHE()
-
+select count(*) from sys.tables
 
 truncate table [HumanResources].[Employee1]
