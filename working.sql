@@ -10,3 +10,5 @@ dbcc FREEPROCCACHE()
 select count(*) from sys.tables
 
 truncate table [HumanResources].[Employee1]
+
+adding line 1
